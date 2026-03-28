@@ -1,7 +1,6 @@
 {
-  "name": "weather-app",
-  "version": "1.0.0",
-  "main": "App.js",
+  "license": "0BSD",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,8 +8,13 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "^50.0.0",
-    "react": "18.2.0",
-    "react-native": "0.73.0"
-  }
+    "expo": "~54.0.10",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-native": "0.81.4",
+    "@expo/vector-icons": "^15.0.2",
+    "react-native-paper": "4.9.2",
+    "react-native-safe-area-context": "~5.6.0"
+  },
+  "private": true
 }
